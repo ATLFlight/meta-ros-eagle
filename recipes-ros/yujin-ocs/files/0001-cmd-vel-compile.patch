@@ -1,0 +1,11 @@
+--- yocs_cmd_vel_mux/CMakeLists.txt_v0	2017-02-22 10:21:00.075843027 -0800
++++ yocs_cmd_vel_mux/CMakeLists.txt	2017-02-22 10:21:15.232169989 -0800
+@@ -27,7 +27,7 @@
+ add_dependencies(${PROJECT_NAME}_nodelet geometry_msgs_gencpp)
+ add_dependencies(${PROJECT_NAME}_nodelet ${PROJECT_NAME}_gencfg)
+ 
+-target_link_libraries(${PROJECT_NAME}_nodelet ${catkin_LIBRARIES} ${yaml-cpp_LIBRARIES})
++target_link_libraries(${PROJECT_NAME}_nodelet ${catkin_LIBRARIES} )
+ 
+ install(TARGETS ${PROJECT_NAME}_nodelet
+         DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
