@@ -3,6 +3,8 @@ SECTION = "devel"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=f0b8b7ebbfd8d37298964e60888a25ed"
 
+PROVIDES = "diagnostics-updater"
+
 DEPENDS = "catkin diagnostic-msgs roscpp rostest std-msgs"
 inherit catkin
 

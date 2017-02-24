@@ -119,5 +119,23 @@ RDEPENDS_${PN} = "\
     diagnostic-analysis \
     diagnostic-common-diagnostics \
     diagnostic-updater \
+    rocon-console \
+    rocon-ebnf \
+    rocon-interactions \
+    rocon-launch \
+    rocon-master-info \
+    rocon-python-comms \
+    rocon-python-redis \
+    rocon-python-utils \
+    rocon-python-wifi \
+    rocon-semantic-version \
+    rocon-tools \
+    rocon-uri \
+    rocon-bubble-icons \
+    rocon-icons \
+    rocon-apps \
+    rocon-app-utilities \
+    rocon-app-platform \
+    rocon-app-manager \
     self-test \
     "
