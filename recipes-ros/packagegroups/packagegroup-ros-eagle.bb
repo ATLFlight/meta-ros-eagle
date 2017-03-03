@@ -114,11 +114,11 @@ RDEPENDS_${PN} = "\
     yocs-virtual-sensor \
     yocs-velocity-smoother \
     zeroconf-msgs \
+    diagnostic-updater \
     diagnostics \
     diagnostic-aggregator \
     diagnostic-analysis \
     diagnostic-common-diagnostics \
-    diagnostic-updater \
     rocon-console \
     rocon-ebnf \
     rocon-interactions \
