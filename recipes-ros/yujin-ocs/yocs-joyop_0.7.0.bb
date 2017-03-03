@@ -5,6 +5,6 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=6;endline=6;md5=2baf3778e8c4d02
 
 PROVIDES = "${PN}"
 
-DEPENDS = "catkin ecl-exceptions ecl-time geometry-msgs joy sensor-msgs std-msgs yocs-msgs roscpp"
+DEPENDS = "catkin ecl-exceptions ecl-time geometry-msgs joy sensor-msgs std-msgs yocs-msgs roscpp yocs-math-toolkit"
 
 require yujin-ocs.inc

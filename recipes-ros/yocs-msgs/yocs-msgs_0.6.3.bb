@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=d566ef916e9dedc
 
 PROVIDES = "${PN}"
 
-DEPENDS = "std-msgs message-generation message-runtime actionlib"
+DEPENDS = "std-msgs message-generation message-runtime actionlib actionlib-msgs geometry-msgs std-srvs"
 # https://github.com/yujinrobot/yocs_msgs/archive/0.6.3.tar.gz
 SRC_URI = "https://github.com/yujinrobot/yocs_msgs/archive/0.6.3.tar.gz;downloadfilename=${ROS_SP}.tar.gz"
 

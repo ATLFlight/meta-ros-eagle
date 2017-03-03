@@ -138,4 +138,36 @@ RDEPENDS_${PN} = "\
     rocon-app-platform \
     rocon-app-manager \
     self-test \
+    robot-state-publisher \
+    tf2 \
+    tf2-kdl \
+    tf2-bullet \
+    tf2-geometry-msgs \
+    bullet \
+    tf2-eigen \
+    tf2-kdl \
+    tf2-msgs \
+    tf2-py \
+    tf2-ros \
+    tf2-sensor-msgs \
+    tf2-tools \
+    robot-pose-ekf \
+    laptop-battery-monitor \
+    smart-battery-msgs  \
+    capabilities \
+    avahi \
+    zeroconf-avahi \
+    zeroconf-msgs \
+    rocon-std-msgs \
+    concert-msgs \
+    rocon-std-msgs \
+    rocon-service-pair-msgs \
+    unique-id \
+    rocon-gateway \
+    rocon-hub \
+    rocon-hub-client \
+    rocon-std-msgs \
+    rocon-interaction-msgs \
+    rocon-app-manager-msgs \
+    orocos-kdl \
     "
