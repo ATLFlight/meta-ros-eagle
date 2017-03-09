@@ -143,7 +143,6 @@ RDEPENDS_${PN} = "\
     tf2-kdl \
     tf2-bullet \
     tf2-geometry-msgs \
-    bullet \
     tf2-eigen \
     tf2-kdl \
     tf2-msgs \
