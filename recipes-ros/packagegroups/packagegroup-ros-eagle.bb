@@ -154,9 +154,6 @@ RDEPENDS_${PN} = "\
     laptop-battery-monitor \
     smart-battery-msgs  \
     capabilities \
-    avahi \
-    zeroconf-avahi \
-    zeroconf-msgs \
     rocon-std-msgs \
     concert-msgs \
     rocon-std-msgs \
@@ -169,4 +166,8 @@ RDEPENDS_${PN} = "\
     rocon-interaction-msgs \
     rocon-app-manager-msgs \
     orocos-kdl \
+    cv-bridge \
+    pcl-conversions \
+    pcl-ros \
+    camera-info-manager \
     "
