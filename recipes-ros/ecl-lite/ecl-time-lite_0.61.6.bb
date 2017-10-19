@@ -1,10 +1,9 @@
+DESCRIPTION = "Provides a portable set of time functions that are especially \
+  useful for porting other code or being wrapped by higher level c++ classes."
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=4cbf429eb5ad3792202780bf0f50fc90"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=11;endline=11;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin ecl-config ecl-errors ecl-license"
+DEPENDS = "ecl-build ecl-license ecl-config ecl-errors"
 
-inherit catkin
 require ecl-lite.inc
-
-

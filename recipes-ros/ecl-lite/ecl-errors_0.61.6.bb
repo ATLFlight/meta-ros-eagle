@@ -1,10 +1,8 @@
+DESCRIPTION = "This library provides lean and mean error mechanisms."
 SECTION = "devel"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://package.xml;beginline=9;endline=9;md5=3aaf85addbebd6d91229a981c49afb8b"
+LIC_FILES_CHKSUM = "file://package.xml;beginline=13;endline=13;md5=d566ef916e9dedc494f5f793a6690ba5"
 
-DEPENDS = "catkin ecl-config ecl-license"
+DEPENDS = "ecl-license ecl-config"
 
-inherit catkin
 require ecl-lite.inc
-
-
